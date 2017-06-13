@@ -1,13 +1,24 @@
 {
-	"name" : "Node Js App in Heroku",
-	"version" : "1.0.0",
-	"scripts" : {
-		"start" : "node server.js"
-	},
-	"dependencies" : {
-		"express" : "4.13.3",
-		"ejs" : "*"
-	},
-	"author" : "Boudour Houssem",
-	"license" : ""
+  "name": "node_js_app",
+  "version": "1.0.0",
+  "description": "Init for node js app in heroku",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boudour18/heroku_nodejs.git"
+  },
+  "author": "Boudour18",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boudour18/heroku_nodejs/issues"
+  },
+  "homepage": "https://github.com/boudour18/heroku_nodejs#readme",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.3"
+  }
 }
